@@ -242,8 +242,16 @@ h3{
         gap: 5%;
     }
 
-     #bookshelf{
-    margin: 0 20px;}
+    .escape{
+        right: 3%;
+        top: -3%;
+}
+}
+
+@media screen and (max-width: 800px){
+    #bookshelf{
+        margin: 0 25px 0 20px;
+    }
 }
 
 @media screen and (max-width: 550px){
