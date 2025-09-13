@@ -94,6 +94,10 @@ h3{
     display: none;
 }
 
+.seventh-mobile-shelfline{
+    display: none;
+}
+
 /*First shelf*/
 .first-shelfline{
     max-height: 21.3%;
@@ -408,6 +412,19 @@ h3{
     position: absolute;
     top: 63.1%;
     left: 5.7%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.seventh-mobile-shelfline{
+    max-height: 10.7%;
+    height: 100%;
+    max-width: 89.7%;
+    width: 95%;
+    position: absolute;
+    top: 75.4%;
+    left: 5.5%;
     display: flex;
     justify-content: space-between;
     gap: 3px;
