@@ -426,7 +426,7 @@ h3{
     top: 75.4%;
     left: 5.5%;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     gap: 3px;
 }
 }
