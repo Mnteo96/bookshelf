@@ -98,6 +98,18 @@ h3{
     display: none;
 }
 
+.eight-mobile-shelfline{
+    display: none;
+}
+
+.ninth-mobile-shelfline{
+    display: none;
+}
+
+.tenth-mobile-shelfline{
+    display: none;
+}
+
 /*First shelf*/
 .first-shelfline{
     max-height: 21.3%;
@@ -150,6 +162,20 @@ h3{
     position: absolute;
     top: 51.5%;
     left: 5.8%;
+    display: flex;
+    justify-content: left;
+    gap: 1px;
+}
+
+/*Fourth shelf*/
+.fourth-shelfline{
+    max-height: 21.14%;
+    height: 100%;
+    max-width: 89.3%;
+    width: 100%;
+    position: absolute;
+    top: 75.8%;
+    left: 5.65%;
     display: flex;
     justify-content: left;
     gap: 1px;
@@ -339,95 +365,125 @@ h3{
     display: none;
 }
 
+.fourth-shelfline{
+    display: none;
+}
+
 .first-mobile-shelfline{
-    max-height: 10.79%;
+    max-height: 8.6%;
     height: 100%;
-    max-width: 89.5%;
+    max-width: 88.3%;
     width: 100%;
     position: absolute;
-    top: 1.5%;
-    left: 5.6%;
+    top: 1.23%;
+    left: 6.2%;
     display: flex;
     justify-content: space-between;
-    gap: 3px;
+    gap: 1px;
 }
 
 .second-mobile-shelfline{
-    max-height: 10.79%;
+    max-height: 8.6%;
     height: 100%;
-    max-width: 89.9%;
+    max-width: 88.3%;
     width: 100%;
     position: absolute;
-    top: 13.8%;
+    top: 11.1%;
     left: 6%;
     display: flex;
     justify-content: space-between;
-    gap: 3px;
+    gap: 1px;
 }
 
 .third-mobile-shelfline{
-    max-height: 10.7%;
+    max-height: 8.6%;
     height: 100%;
-    max-width: 89.7%;
+    max-width: 88.3%;
     width: 100%;
     position: absolute;
-    top: 26.1%;
-    left: 5.8%;
+    top: 20.93%;
+    left: 6.2%;
     display: flex;
     justify-content: space-between;
-    gap: 3px;
+    gap: 1px;
 }
 
 .fourth-mobile-shelfline{
-    max-height: 10.7%;
+    max-height: 8.6%;
     height: 100%;
-    max-width: 89.7%;
+    max-width: 88.3%;
     width: 100%;
     position: absolute;
-    top: 38.45%;
-    left: 5.8%;
+    top: 30.84%;
+    left: 6.2%;
     display: flex;
     justify-content: space-between;
-    gap: 3px;
+    gap: 1px;
 }
 
 .fifth-mobile-shelfline{
-    max-height: 10.8%;
+    max-height: 8.6%;
     height: 100%;
-    max-width: 89.7%;
+    max-width: 88.3%;
     width: 100%;
     position: absolute;
-    top: 50.82%;
-    left: 5.8%;
+    top: 40.77%;
+    left: 6.2%;
     display: flex;
     justify-content: space-between;
-    gap: 3px;
+    gap: 1px;
 }
 
 .sixth-mobile-shelfline{
-    max-height: 10.7%;
+    max-height: 8.6%;
     height: 100%;
-    max-width: 89.7%;
-    width: 95%;
+    max-width: 88.3%;
+    width: 100%;
     position: absolute;
-    top: 63.1%;
-    left: 5.7%;
+    top: 50.62%;
+    left: 6.2%;
     display: flex;
     justify-content: space-between;
-    gap: 3px;
+    gap: 1px;
 }
 
 .seventh-mobile-shelfline{
-    max-height: 10.7%;
+    max-height: 8.6%;
     height: 100%;
-    max-width: 89.7%;
-    width: 95%;
+    max-width: 88.3%;
+    width: 100%;
     position: absolute;
-    top: 75.4%;
-    left: 5.5%;
+    top: 60.49%;
+    left: 6.2%;
     display: flex;
-    /*justify-content: space-between;*/
-    gap: 3px;
+    justify-content: space-between;
+    gap: 1px;
+}
+
+.eight-mobile-shelfline{
+    max-height: 8.6%;
+    height: 100%;
+    max-width: 88.3%;
+    width: 100%;
+    position: absolute;
+    top: 70.36%;
+    left: 6.2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+}
+
+.ninth-mobile-shelfline{
+    max-height: 8.6%;
+    height: 100%;
+    max-width: 88.3%;
+    width: 100%;
+    position: absolute;
+    top: 80.28%;
+    left: 6.2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
 }
 }
 
