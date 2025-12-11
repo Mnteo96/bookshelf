@@ -58,6 +58,7 @@ h3{
     border-radius: 7px;
 }
 
+
 #bookshelf .shelf{
     width: 101%;
     height: auto;
@@ -67,6 +68,11 @@ h3{
 
 #bookshelf .mobile-shelf{
     display: none;
+}
+
+hr{
+    width: 100px;
+    margin: 10px auto;
 }
 
 /*Mobile shelves*/
